@@ -105,7 +105,7 @@ function App() {
     const ref = useRef();
     useFrame(() => {
       
-      ref.current.rotation.y += 0.004
+      ref.current.rotation.y += 0.0040
       ref.current.position.y = (1 + Math.sin(1.2 / 2)) / 10
     });
 
